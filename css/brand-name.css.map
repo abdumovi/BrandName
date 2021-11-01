@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,YAAY,CAAA;EACV,gBAAgB,EAAE,6BAA6B;EAC/C,iBAAiB,EAAE,SAAS;EAC5B,eAAe,EAAE,KAAK;CACvB",
+    "sources": [
+        "../scss/brand-name/brand-name.scss",
+        "../scss/brand-name/_hero.scss"
+    ],
+    "names": [],
+    "file": "brand-name.css"
+}

@@ -1,0 +1,171 @@
+#site-header{
+  background-image: url('../../img/hero-img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+
+  &::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    background: linear-gradient(89.85deg, #000000 0.13%, #000000 0.14%, rgba(0, 0, 0, 0) 99.56%);
+  }
+}
+
+.site-header {
+
+  &__all{
+    position: relative;
+    z-index: 2;
+  }
+  &__content {
+    @include flex-b;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+  }
+
+  &__logos {
+    display: flex;
+    align-items: center;
+  }
+
+  &__link {
+    @include ebold(14px,22px);
+    margin-right: 45px;
+  }
+
+ 
+  &__btn {
+    background-color: #23A6F0;
+    padding: 15px 25px;
+    &::after{
+      content: "";
+      width: 12px;
+      height: 10px;
+      margin-left: 15px;
+      display: inline-block;
+      background-repeat: no-repeat;
+      background-image: url('../../img/arrow.svg');
+    }
+  }
+}
+
+.nav {
+
+  &__list {
+    display: flex;
+    margin-left: 41px;
+  }
+
+  &__item {
+    margin-right: 21px
+  }
+
+
+  &__link {
+    @include ebold(14px,22px);
+  }
+}
+.hero{
+  padding-top: 125px;
+  padding-bottom: 112px;
+}
+.hero {
+
+  &__title {
+    @include ebold(58px,80px);
+    font-weight: 800;
+    max-width: 600px;
+    margin-bottom: 35px;
+  }
+
+  &__text {
+    @include regular( 500,20px,30px);
+    max-width: 376px;
+    margin-bottom: 35px;
+  }
+  &__btn{
+    background: #23A6F0;
+    border-radius: 37px;
+    padding: 15px 36px;
+    margin-right: 10px;
+
+  }
+  &__btn1{
+    border-radius: 37px;
+    padding: 15px 36px;
+    border-color: #fff;
+    color: #fff;
+
+    &:hover{
+      background-color: #23A6F0;
+    }
+  }
+  
+}
+
+@include respon(991px){
+  .site-header__btns{
+    display: flex;
+    flex-direction: column;
+  }
+  .nav__list{
+    margin: 0;
+  }
+  .nav__item{
+    margin-bottom: 11px;
+  }
+  .site-header__link{
+    margin-top: -8px;
+    margin-bottom: 11px;
+  }
+  .navbar-brand{
+    margin-bottom: 20px;
+  }
+  .site-header__btn{
+    max-width: 224px;
+
+    &::after{
+      background-image: url("");
+      width: 0;
+      height: 0;
+    }
+  }
+  
+}
+@include respon(628px){
+  .hero__title{
+    @include ebold(40px,57px);
+    text-align: center;
+  }
+  .hero__text{
+    text-align: center;
+    margin: 0 auto;
+  }
+  .hero__btns{
+    display: flex;
+    flex-direction: column;
+  }
+  .hero__btn{
+    width: 205px;
+    margin: 0 auto;
+    padding: 10px 36px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+  }
+  .hero__btn1{
+    width: 173px;
+    margin: 0 auto;
+    padding: 10px 36px;
+    color: #23A6F0;
+    border-color: #23A6F0;
+  }
+  .hero{
+    padding-top: 80px;
+    padding-bottom: 7px;
+  }
+}

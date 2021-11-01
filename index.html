@@ -1,15 +1,352 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lesson</title>
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="css/flexboxgrid.min.css">
   <link rel="stylesheet" href="css/main.min.css">
 </head>
-<body>
 
+<body>
+  <div class="wrapper">
+    <section id="site-header">
+      <div class="site-header__container container">
+        <div class="site-header__all">
+          <header class="site-header__content">
+            <nav class="navbar w-100 navbar-expand-lg navbar-light ">
+              <a class="navbar-brand" href="#"><img src="./img/logo.svg" alt="img"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav__list">
+                  <li class="nav-item nav__item">
+                    <a class="nav__link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item nav__item">
+                    <a class="nav__link" href="#">Product</a>
+                  </li>
+                  <li class="nav-item nav__item">
+                    <a class="nav__link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item nav__item">
+                    <a class="nav__link" href="#">Contact</a>
+                  </li>
+                </ul>
+                <div class="site-header__btns">
+                  <a class="site-header__link" href="#">Login</a>
+                  <a class="btn btn-primary site-header__btn" href="#" role="button">Become a member</a>
+                </div>
+              </div>
+            </nav>
+          </header>
+          <div class="site-header__hero hero">
+            <h2 class="hero__title">We Ensure A Best Insurance Service</h2>
+            <p class="hero__text">We know how large objects will act, but things on a small scale.</p>
+            <div class="hero__btns">
+              <a class="btn btn-primary hero__btn" href="#" role="button">Get Quote Now</a>
+              <button type="button" class="btn btn-outline-primary hero__btn1">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <main>
+      <section id="servise">
+        <div class="servise__container conatiner">
+          <ul class="servise__list">
+            <li class="servise__item">
+              <h3 class="servise__title">Peace of Mind</h3>
+              <p class="servise__text">So it really behaves like neither.
+                Now we have given up. </p>
+            </li>
+            <li class="servise__item">
+              <h3 class="servise__title">Set For Life</h3>
+              <p class="servise__text">They were used to create the
+                machines that launched </p>
+            </li>
+            <li class="servise__item">
+              <h3 class="servise__title">100% Satisfaction</h3>
+              <p class="servise__text">So it really behaves like neither.
+                Now we have given up. </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="indusry">
+        <div class="indusry__container conatiner">
+          <h2 class="indusry__title">Industry</h2>
+          <p class="indusry__text">Problems trying to resolve the conflict between the two major realms of Classical
+            physics: Newtonian mechanics </p>
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="indusry__card-block">
+                  <img class="indusry__card-img" src="./img/ind.png" alt="img">
+                  <h2 class="indusry__card-title">Regina Miles</h2>
+                  <p class="indusry__card-sub-title">Designer</p>
+                  <ul class="indusry__card-lst">
+                    <li class="indusry__card-item"><i class='bx instar bxs-star'></i></li>
+                    <li class="indusry__card-item"><i class='bx instar bxs-star'></i></li>
+                    <li class="indusry__card-item"><i class='bx instar bxs-star'></i></li>
+                    <li class="indusry__card-item"><i class='bx instar bxs-star'></i></li>
+                    <li class="indusry__card-item"><i class='bx instar bx-star'></i></li>
+                  </ul>
+                  <p class="indusry__card-text">This proved to be impossible using the traditional concepts of space and
+                    time.
+                    Einstein developed a new view of time first and then space. This proved to be impossible using the
+                    traditional concepts of space and time. Einstein developed a new view of time first and then space.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="indusry__card-block">
+                  <img class="indusry__card-img" src="./img/ind.png" alt="img">
+                  <h2 class="indusry__card-title">Regina Miles</h2>
+                  <p class="indusry__card-sub-title">Designer</p>
+                  <ul class="indusry__card-lst">
+                    <li class="indusry__card-item"><i class='bx instar bxs-star'></i></li>
+                    <li class="indusry__card-item"><i class='bx instar bxs-star'></i></li>
+                    <li class="indusry__card-item"><i class='bx instar bxs-star'></i></li>
+                    <li class="indusry__card-item"><i class='bx instar bxs-star'></i></li>
+                    <li class="indusry__card-item"><i class='bx instar bx-star'></i></li>
+                  </ul>
+                  <p class="indusry__card-text">This proved to be impossible using the traditional concepts of space and
+                    time.
+                    Einstein developed a new view of time first and then space. This proved to be impossible using the
+                    traditional concepts of space and time. Einstein developed a new view of time first and then space.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="indusry__card-block">
+                  <img class="indusry__card-img" src="./img/ind2.png" alt="img">
+                  <h2 class="indusry__card-title">Regina Miles</h2>
+                  <p class="indusry__card-sub-title">Designer</p>
+                  <ul class="indusry__card-lst">
+                    <li class="indusry__card-item"><i class='bx instar bxs-star'></i></li>
+                    <li class="indusry__card-item"><i class='bx instar bxs-star'></i></li>
+                    <li class="indusry__card-item"><i class='bx instar bxs-star'></i></li>
+                    <li class="indusry__card-item"><i class='bx instar bxs-star'></i></li>
+                    <li class="indusry__card-item"><i class='bx instar bx-star'></i></li>
+                  </ul>
+                  <p class="indusry__card-text">This proved to be impossible using the traditional concepts of space and
+                    time.
+                    Einstein developed a new view of time first and then space. This proved to be impossible using the
+                    traditional concepts of space and time. Einstein developed a new view of time first and then space.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section id="second">
+        <div class="second__container">
+          <h2 class="indusry__title">Industry</h2>
+          <p class="indusry__text">Problems trying to resolve the conflict between the two major realms of Classical
+            physics: Newtonian mechanics </p>
+          <ul class="second__card">
+            <li class="second__card-content">
+              <div class="second__card-block">
+                <p class="second__sub-title">Tax Management</p>
+                <h2 class="second__card-title">Life Tips From Top Ten Adventure Travelers</h2>
+                <a class="btn btn-primary second__card-btn" href="#" role="button">View Project</a>
+              </div>
+            </li>
+            <li class="second__card-content">
+              <div class="second__card-block">
+                <p class="second__sub-title">Tax Management</p>
+                <h2 class="second__card-title">Life Tips From Top Ten Adventure Travelers</h2>
+                <a class="btn btn-primary second__card-btn" href="#" role="button">View Project</a>
+              </div>
+            </li>
+            <li class="second__card-content">
+              <div class="second__card-block">
+                <p class="second__sub-title">Tax Management</p>
+                <h2 class="second__card-title">Life Tips From Top Ten Adventure Travelers</h2>
+                <a class="btn btn-primary second__card-btn" href="#" role="button">View Project</a>
+              </div>
+            </li>
+            <li class="second__card-content">
+              <div class="second__card-block">
+                <p class="second__sub-title">Tax Management</p>
+                <h2 class="second__card-title">Life Tips From Top Ten Adventure Travelers</h2>
+                <a class="btn btn-primary second__card-btn" href="#" role="button">View Project</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="pricing">
+        <div class="pricing__container container">
+          <h2 class="indusry__title">Pricing</h2>
+          <p class="indusry__text">Problems trying to resolve the conflict between the two major realms of Classical
+            physics: Newtonian mechanics </p>
+          <div class="row card__row">
+            <div class="col-lg-4 col-md-6 col-xs-12 col-sm-6 mt-4 mb-4">
+              <div class="card card1 h-100">
+                <div class="card-body">
+
+                  <h5 class="card__title mb-4">FREE</h5>
+                  <small class='text-muted card__text'>Organize across all  apps by hand</small>
+                  <br><br>
+                  <span class="h2 prise prise-size">$8</span>
+                  <span class="d-block prise">Per month</span>
+                  <br><br>
+                  <div class="d-grid my-3">
+                    <button class="btn btn-primary card__btn btn-block">Try for free</button>
+                  </div>
+                  <ul class="card__list">
+                    <li class="card__item">Unlimited product updates</li>
+                    <li class="card__item">Unlimited product updates</li>
+                    <li class="card__item">1GB  Cloud storage</li>
+                    <li class="card__item">1GB  Cloud storage</li>
+                    <li class="card__item">Dapibus ac facilisis in</li>
+                    <li class="card__item">1GB  Cloud storage </li>
+
+                  </ul>
+                </div>
+
+
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-xs-12 col-sm-6 mt-4 mb-4">
+              <div class="card card1 h-100">
+                <div class="card-body before-card">
+                  <h5 class="card__title mb-4">Silver</h5>
+                  <small class='text-muted card__text'>Organize across all  apps by hand</small>
+                  <br><br>
+                  <span class="h2 prise prise-size">9.99$</span>
+                  <span class="d-block prise">Per month</span>
+                  <br><br>
+                  <div class="d-grid my-3">
+                    <button class="btn btn-primary card__btn btn-block">Try for free</button>
+                  </div>
+                  <ul class="card__list">
+                    <li class="card__item">Unlimited product updates</li>
+                    <li class="card__item">Unlimited product updates</li>
+                    <li class="card__item">1GB  Cloud storage</li>
+                    <li class="card__item">1GB  Cloud storage</li>
+                    <li class="card__item">Dapibus ac facilisis in</li>
+                    <li class="card__item">1GB  Cloud storage </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-xs-12 col-sm-6 mt-4 mb-4">
+              <div class="card card1 h-100">
+                <div class="card-body">
+                  <h5 class="card__title mb-4">GOLD</h5>
+                  <small class='text-muted card__text'>Organize across all  apps by hand</small>
+                  <br><br>
+                  <span class="h2 prise prise-size">19.99$</span>
+                  <span class="d-block prise">Per month</span>
+                  <br><br>
+                  <div class="d-grid my-3">
+                    <button class="btn btn-primary card__btn btn-block">Try for free</button>
+                  </div>
+                  <ul class="card__list">
+                    <li class="card__item">Unlimited product updates</li>
+                    <li class="card__item">Unlimited product updates</li>
+                    <li class="card__item">1GB  Cloud storage</li>
+                    <li class="card__item">1GB  Cloud storage</li>
+                    <li class="card__item">Dapibus ac facilisis in</li>
+                    <li class="card__item">1GB  Cloud storage </li>
+
+                  </ul>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="contact__container container">
+          <form class="row contact__form needs-validation" novalidate>
+            <div class="col-md-6">
+              <label for="validationCustom01" class="form-label"></label>
+              <input  type="text" class="form-control contact__inputs" id="validationCustom01"  placeholder="Full Name *" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationCustomUsername" class="form-label"></label>
+              <div class="input-group has-validation">
+                <input  type="text" class="form-control contact__inputs" id="validationCustomUsername" placeholder="Email *" aria-describedby="inputGroupPrepend" required>
+                <div class="invalid-feedback">
+                  Please choose a username.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationCustom04" class="form-label"></label>
+              <select class="form-select contact__inputs" id="validationCustom04" required>
+              <option selected disabled value="">Please Select</option>
+              <option>...</option>
+              </select>
+              <div class="invalid-feedback">
+                Please select a valid state.
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationCustom04" class="form-label"></label>
+              <select class="form-select contact__inputs" id="validationCustom04" required>
+              <option selected disabled value="">4:00 Available</option>
+              <option>...</option>
+              </select>
+              <div class="invalid-feedback">
+                Please select a valid state.
+              </div>
+            </div>
+            <div class="col-md-12">
+              <label for="validationCustom03" class="form-label"></label>
+              <textarea type="text" class="form-control contact__inputs contacttexarea" placeholder="Message" id="validationCustom03" required> </textarea>
+              <div class="invalid-feedback">
+                Please provide a valid city.
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary content__btn" type="submit">Book Appointment</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
   <script src="js/main.js"></script>
 </body>
+
 </html>

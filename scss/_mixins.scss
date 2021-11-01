@@ -1,11 +1,4 @@
-@mixin list {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-@mixin text {
-  text-decoration: none;
-}
+
 @mixin flex-b {
   display: flex;
   align-items: center;
@@ -18,5 +11,22 @@
   @media screen and (max-width:$size) {
     @content ;
   }
+}
+
+@mixin ebold ($size,$line){
+  font-family:'Montserrat';
+  font-weight: bold;
+  font-size: $size;
+  line-height: $line;
+  letter-spacing: 0.2px;
+  color: #fff;  
+}
+@mixin regular ($weyt,$size,$line){
+  font-family:'Montserrat';
+  font-weight: $weyt;
+  font-size: $size;
+  line-height:$line;
+  letter-spacing: 0.2px;
+  color: #fff;
 }
 
